@@ -3,6 +3,9 @@
   "MRUPresetsPerTargetSystem": {
     "Local Machine": {
       "configure": "x64-debug"
+    },
+    "Локальный компьютер": {
+      "configure": "x64-debug"
     }
   },
   "ExpandedNodes": [
