@@ -3,8 +3,13 @@
 #
 cmake_minimum_required (VERSION 3.8)
 
+find_package(OpenCV REQUIRED)
+include_directories(${OpenCV_INCLUDE_DIRS})
+
 # Add source to this project's executable.
 add_executable (SmartBomb "SmartBomb.cpp" "SmartBomb.h")
+
+target_link_libraries(SmartBomb ${OpenCV_LIBS})
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
   set_property(TARGET SmartBomb PROPERTY CXX_STANDARD 20)
