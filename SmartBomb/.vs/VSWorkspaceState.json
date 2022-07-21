@@ -1,7 +1,16 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\BombMovement",
+    "\\Tracking",
+    "\\UI",
+    "\\UI\\CaptureVideo",
+    "\\UI\\CaptureVideo\\CaptureLocalVideo",
+    "\\UI\\Draw",
+    "\\UI\\SendVideo",
+    "\\UI\\SendVideo\\GroundDisplay",
+    "\\UI\\SendVideo\\LocalDisplay"
   ],
-  "SelectedNode": "\\SmartBomb.cpp",
+  "SelectedNode": "\\BombMovement",
   "PreviewInSolutionExplorer": false
 }
