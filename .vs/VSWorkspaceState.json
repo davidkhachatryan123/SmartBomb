@@ -10,8 +10,16 @@
   },
   "ExpandedNodes": [
     "",
-    "\\SmartBomb"
+    "\\SmartBomb",
+    "\\SmartBomb\\UI",
+    "\\SmartBomb\\UI\\Draw",
+    "\\SmartBomb\\UI\\SendVideo",
+    "\\SmartBomb\\UI\\SendVideo\\GroundDisplay",
+    "\\SmartBomb\\UI\\SendVideo\\LocalDisplay",
+    "\\SmartBomb\\XMovement",
+    "\\SmartBomb\\XMovement\\Joystick",
+    "\\SmartBomb\\XMovement\\Keyboard"
   ],
-  "SelectedNode": "\\CMakeLists.txt",
+  "SelectedNode": "\\SmartBomb\\SmartBomb.h",
   "PreviewInSolutionExplorer": false
 }

@@ -7,7 +7,20 @@ find_package(OpenCV REQUIRED)
 include_directories(${OpenCV_INCLUDE_DIRS})
 
 # Add source to this project's executable.
-add_executable (SmartBomb "SmartBomb.cpp" "SmartBomb.h")
+add_executable (SmartBomb "SmartBomb.cpp" "SmartBomb.h"
+"BombMovement/Bomb.cpp"
+"Tracking/Track.h"
+"UI/Draw/Draw.cpp" "UI/Draw/Draw.h"
+"UI/CaptureVideo/Capture.h"
+"UI/CaptureVideo/CaptureLocalVideo/CaptureLocalVideo.cpp" "UI/CaptureVideo/CaptureLocalVideo/CaptureLocalVideo.h"
+"UI/CaptureVideo/CaptureBombVideo/CaptureBombVideo.cpp" "UI/CaptureVideo/CaptureBombVideo/CaptureBombVideo.h"
+"UI/SendVideo/Display.h"
+"UI/SendVideo/LocalDisplay/LocalDisplay.cpp" "UI/SendVideo/LocalDisplay/LocalDisplay.h"
+"UI/SendVideo/GroundDisplay/GroundDisplay.cpp" "UI/SendVideo/GroundDisplay/GroundDisplay.h"
+"XMovement/XMovement.h"
+"XMovement/Keyboard/Keyboard.cpp" "XMovement/Keyboard/Keyboard.h"
+"XMovement/Joystick/Joystick.cpp" "XMovement/Joystick/Joystick.h"
+)
 
 target_link_libraries(SmartBomb ${OpenCV_LIBS})
 
