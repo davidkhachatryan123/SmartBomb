@@ -1,3 +1,1 @@
 # SmartBomb
-
-Gor
