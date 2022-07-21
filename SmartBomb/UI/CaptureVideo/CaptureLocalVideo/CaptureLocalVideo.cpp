@@ -15,4 +15,6 @@ bool CaptureLocalVideo::Get(cv::VideoCapture cap, cv::Mat& frame)
 
 	if (!frame.empty())
 		return true;
+
+	return false;
 }
