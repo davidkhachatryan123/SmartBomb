@@ -2,5 +2,11 @@
   "ExpandedNodes": [
     ""
   ],
-  "PreviewInSolutionExplorer": false
+  "PreviewInSolutionExplorer": false,
+  "ActiveTargetSystem": "192.168.10.182",
+  "MRUPresetsPerTargetSystem": {
+    "Локальный компьютер": {
+      "configure": "x64-debug"
+    }
+  }
 }

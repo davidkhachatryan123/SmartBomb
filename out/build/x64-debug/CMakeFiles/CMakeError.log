@@ -4,7 +4,7 @@ Build flags:
 Id flags:  
 
 The output was:
-The system cannot find the file specified
+Не удается найти указанный файл
 
 
 Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
@@ -13,7 +13,7 @@ Build flags:
 Id flags: -c 
 
 The output was:
-The system cannot find the file specified
+Не удается найти указанный файл
 
 
 Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
@@ -22,7 +22,7 @@ Build flags:
 Id flags: -Aa 
 
 The output was:
-The system cannot find the file specified
+Не удается найти указанный файл
 
 
 Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
@@ -31,7 +31,7 @@ Build flags:
 Id flags: -D__CLASSIC_C__ 
 
 The output was:
-The system cannot find the file specified
+Не удается найти указанный файл
 
 
 Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
@@ -40,7 +40,7 @@ Build flags:
 Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
 
 The output was:
-The system cannot find the file specified
+Не удается найти указанный файл
 
 
 Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
@@ -49,7 +49,7 @@ Build flags:
 Id flags: -c;-I__does_not_exist__ 
 
 The output was:
-The system cannot find the file specified
+Не удается найти указанный файл
 
 
 Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
@@ -58,7 +58,7 @@ Build flags:
 Id flags:  
 
 The output was:
-The system cannot find the file specified
+Не удается найти указанный файл
 
 
 Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
@@ -67,7 +67,7 @@ Build flags:
 Id flags: -c 
 
 The output was:
-The system cannot find the file specified
+Не удается найти указанный файл
 
 
 Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
@@ -76,7 +76,7 @@ Build flags:
 Id flags: -Aa 
 
 The output was:
-The system cannot find the file specified
+Не удается найти указанный файл
 
 
 Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
@@ -85,7 +85,7 @@ Build flags:
 Id flags: -D__CLASSIC_C__ 
 
 The output was:
-The system cannot find the file specified
+Не удается найти указанный файл
 
 
 Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
@@ -94,7 +94,7 @@ Build flags:
 Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
 
 The output was:
-The system cannot find the file specified
+Не удается найти указанный файл
 
 
 Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
@@ -103,7 +103,7 @@ Build flags:
 Id flags: -c;-I__does_not_exist__ 
 
 The output was:
-The system cannot find the file specified
+Не удается найти указанный файл
 
 
 Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
@@ -114,7 +114,7 @@ Build flags:
 Id flags:  
 
 The output was:
-The system cannot find the file specified
+Не удается найти указанный файл
 
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
@@ -123,7 +123,7 @@ Build flags:
 Id flags: -c 
 
 The output was:
-The system cannot find the file specified
+Не удается найти указанный файл
 
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
@@ -132,7 +132,7 @@ Build flags:
 Id flags: --c++ 
 
 The output was:
-The system cannot find the file specified
+Не удается найти указанный файл
 
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
@@ -141,7 +141,7 @@ Build flags:
 Id flags: --ec++ 
 
 The output was:
-The system cannot find the file specified
+Не удается найти указанный файл
 
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
@@ -150,7 +150,7 @@ Build flags:
 Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
 
 The output was:
-The system cannot find the file specified
+Не удается найти указанный файл
 
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
@@ -159,7 +159,7 @@ Build flags:
 Id flags: -c;-I__does_not_exist__ 
 
 The output was:
-The system cannot find the file specified
+Не удается найти указанный файл
 
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
@@ -168,7 +168,7 @@ Build flags:
 Id flags:  
 
 The output was:
-The system cannot find the file specified
+Не удается найти указанный файл
 
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
@@ -177,7 +177,7 @@ Build flags:
 Id flags: -c 
 
 The output was:
-The system cannot find the file specified
+Не удается найти указанный файл
 
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
@@ -186,7 +186,7 @@ Build flags:
 Id flags: --c++ 
 
 The output was:
-The system cannot find the file specified
+Не удается найти указанный файл
 
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
@@ -195,7 +195,7 @@ Build flags:
 Id flags: --ec++ 
 
 The output was:
-The system cannot find the file specified
+Не удается найти указанный файл
 
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
@@ -204,7 +204,7 @@ Build flags:
 Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
 
 The output was:
-The system cannot find the file specified
+Не удается найти указанный файл
 
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
@@ -213,7 +213,7 @@ Build flags:
 Id flags: -c;-I__does_not_exist__ 
 
 The output was:
-The system cannot find the file specified
+Не удается найти указанный файл
 
 
 Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
