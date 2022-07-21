@@ -3,11 +3,15 @@
   "MRUPresetsPerTargetSystem": {
     "Local Machine": {
       "configure": "x64-debug"
+    },
+    "Локальный компьютер": {
+      "configure": "x64-debug"
     }
   },
   "ExpandedNodes": [
     "",
     "\\SmartBomb"
   ],
+  "SelectedNode": "\\CMakeLists.txt",
   "PreviewInSolutionExplorer": false
 }
