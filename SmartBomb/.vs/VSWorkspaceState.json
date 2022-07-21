@@ -1,16 +1,15 @@
 {
   "ExpandedNodes": [
     "",
-    "\\BombMovement",
-    "\\Tracking",
     "\\UI",
     "\\UI\\CaptureVideo",
-    "\\UI\\CaptureVideo\\CaptureLocalVideo",
-    "\\UI\\Draw",
+    "\\UI\\CaptureVideo\\CaptureBombVideo",
     "\\UI\\SendVideo",
     "\\UI\\SendVideo\\GroundDisplay",
-    "\\UI\\SendVideo\\LocalDisplay"
+    "\\UI\\SendVideo\\LocalDisplay",
+    "\\XMovement",
+    "\\XMovement\\Joystick",
+    "\\XMovement\\Keyboard"
   ],
-  "SelectedNode": "\\BombMovement",
   "PreviewInSolutionExplorer": false
 }
