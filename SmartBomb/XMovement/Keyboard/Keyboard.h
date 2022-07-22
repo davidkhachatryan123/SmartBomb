@@ -5,5 +5,5 @@
 class Keyboard : public XMovement
 {
 public:
-	void Move(Coordinates cords, cv::Mat frame);
+	void Move(cv::Mat frame);
 };
