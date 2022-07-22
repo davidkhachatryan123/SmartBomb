@@ -1,6 +1,6 @@
 #include "Keyboard.h"
 
-void Keyboard::Move(int x, int y)
+void Keyboard::Move(Coordinates cords, cv::Mat frame)
 {
 
 }
