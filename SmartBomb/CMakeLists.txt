@@ -20,7 +20,7 @@ add_executable (SmartBomb "SmartBomb.cpp" "SmartBomb.h"
 "XMovement/XMovement.h"
 "XMovement/Keyboard/Keyboard.cpp" "XMovement/Keyboard/Keyboard.h"
 "XMovement/Joystick/Joystick.cpp" "XMovement/Joystick/Joystick.h"
-)
+"Structures/Coordinates.h")
 
 target_link_libraries(SmartBomb ${OpenCV_LIBS})
 

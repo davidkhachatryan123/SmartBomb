@@ -10,7 +10,6 @@
 					[
 						1
 					],
-					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.8"
@@ -20,7 +19,6 @@
 				},
 				{
 					"build" : "SmartBomb",
-					"jsonFile" : "directory-SmartBomb-Debug-7ed01a50f2811ce4b6ba.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.8"
@@ -55,7 +53,7 @@
 				{
 					"directoryIndex" : 1,
 					"id" : "SmartBomb::@c85eea26391fbdee2a19",
-					"jsonFile" : "target-SmartBomb-Debug-3fbc3e6f98f321fde496.json",
+					"jsonFile" : "target-SmartBomb-Debug-bc2d556ba16860d5c533.json",
 					"name" : "SmartBomb",
 					"projectIndex" : 0
 				}
@@ -65,12 +63,12 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/User/Desktop/SmartBomb/out/build/x64-debug",
-		"source" : "C:/Users/User/Desktop/SmartBomb"
+		"build" : "/home/david/.vs/SmartBomb/out/build/linux-debug",
+		"source" : "/home/david/.vs/SmartBomb"
 	},
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 3
+		"minor" : 1
 	}
 }
