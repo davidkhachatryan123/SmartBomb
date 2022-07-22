@@ -6,5 +6,5 @@
 class Draw
 {
 public:
-	void drawX(int x, int y, cv::Mat& img);
+	static void drawX(float x, float y, std::string windowName, cv::Mat& frame);
 };

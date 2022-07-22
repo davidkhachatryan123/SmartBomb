@@ -1,10 +1,13 @@
 ﻿#include "SmartBomb.h"
 
 using namespace std;
+using namespace cv;
 
 int main()
 {
-	cout << "Programm Skeleton." << endl;
+	cv::Mat
+
+	Draw::drawX
 
 	return 0;
 }
