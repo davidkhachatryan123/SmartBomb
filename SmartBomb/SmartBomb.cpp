@@ -10,19 +10,21 @@ int main()
 	if (CaptureLocalVideo::OpenCapture("/home/david/Videos/video.mp4", cap))
 	{
 		Mat frame;
+		Keyboard keyboard;
 
 		while (CaptureLocalVideo::Get(cap, frame))
 		{
-			Draw::drawX(Coordinates(0.0f, +0.5f), frame);
+			keyboard.Move(frame, 33);
 
 			LocalDisplay::Send("Window", frame);
-
-			waitKey(33);
 		}
 	}
 
 
-	waitKey(0);
+	while (true)
+		if (waitKey(1) == 27)
+			break;
+
 	cap.release();
 
 	return 0;

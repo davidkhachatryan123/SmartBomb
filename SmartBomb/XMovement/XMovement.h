@@ -7,5 +7,5 @@
 class XMovement
 {
 protected:
-	virtual void Move(cv::Mat frame) = 0;
+	virtual void Move(cv::Mat& frame, int delay) = 0;
 };
