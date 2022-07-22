@@ -3,8 +3,10 @@
 #include <iostream>
 #include <opencv2/opencv.hpp>
 
+#include "../../Structures/Coordinates.h"
+
 class Draw
 {
 public:
-	void drawX(int x, int y, cv::Mat& img);
+	static void drawX(Coordinates cords, cv::Mat& frame);
 };

@@ -212,7 +212,8 @@
 				15,
 				16,
 				18,
-				20
+				20,
+				21
 			]
 		}
 	],
@@ -330,6 +331,11 @@
 		{
 			"backtrace" : 1,
 			"path" : "SmartBomb/XMovement/Joystick/Joystick.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "SmartBomb/Structures/Coordinates.h",
 			"sourceGroupIndex" : 1
 		}
 	],
