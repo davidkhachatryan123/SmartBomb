@@ -1,3 +1,6 @@
 # SmartBomb
+<<<<<<< HEAD
 
 Arsen
+=======
+>>>>>>> 'main'
