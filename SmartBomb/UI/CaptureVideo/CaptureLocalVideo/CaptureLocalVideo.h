@@ -8,7 +8,10 @@
 class CaptureLocalVideo : public Capture
 {
 public:
-	static bool OpenCapture(std::string path, cv::VideoCapture& cap);
+	bool OpenCapture(std::string path);
 
-	static bool Get(cv::VideoCapture cap, cv::Mat& frame);
+	bool Get(cv::Mat& frame);
+
+private:
+	cv::VideoCapture _cap;
 };

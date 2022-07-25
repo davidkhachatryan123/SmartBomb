@@ -6,5 +6,5 @@
 class Display
 {
 protected:
-	virtual void Send(cv::Mat frame) = 0;
+	virtual void Send(std::string windowName, cv::Mat frame) = 0;
 };

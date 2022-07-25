@@ -5,18 +5,19 @@ using namespace cv;
 
 int main()
 {
-	VideoCapture cap;
+	CaptureLocalVideo lVideo;
 
-	if (CaptureLocalVideo::OpenCapture("/home/david/Videos/video.mp4", cap))
+	if (lVideo.OpenCapture("/home/david/Videos/video.mp4"))
 	{
 		Mat frame;
 		Keyboard keyboard;
+		LocalDisplay lDisplay;
 
-		while (CaptureLocalVideo::Get(cap, frame))
+		while (lVideo.Get(frame))
 		{
 			keyboard.Move(frame, 33);
 
-			LocalDisplay::Send("Window", frame);
+			lDisplay.Send("Window", frame);
 		}
 	}
 
@@ -24,8 +25,6 @@ int main()
 	while (true)
 		if (waitKey(1) == 27)
 			break;
-
-	cap.release();
 
 	return 0;
 }
