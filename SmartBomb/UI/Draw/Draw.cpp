@@ -18,3 +18,24 @@ Coordinates Draw::drawX(Coordinates cords, Mat& frame, int size)
 
 	return Coordinates(frame_x, frame_y);
 }
+
+Coordinates Draw::drawRect(Rect boudingBox, cv::Mat& frame)
+{
+	Coordinates cords(boudingBox.x + boudingBox.width / 2, boudingBox.y + boudingBox.height / 2);
+
+	circle(frame, Point(cords.x, cords.y), 1, Scalar(0, 0, 255), 3, 1);
+
+	line(frame, Point(boudingBox.x, boudingBox.y), Point(boudingBox.x + boudingBox.width / 3, boudingBox.y), Scalar(0, 0, 255), 1, 1);
+	line(frame, Point(boudingBox.x, boudingBox.y), Point(boudingBox.x, boudingBox.y + boudingBox.height / 3), Scalar(0, 0, 255), 1, 1);
+
+	line(frame, Point(boudingBox.x + boudingBox.width, boudingBox.y), Point((boudingBox.x + boudingBox.width) - boudingBox.width / 3, boudingBox.y), Scalar(0, 0, 255), 1, 1);
+	line(frame, Point(boudingBox.x + boudingBox.width, boudingBox.y), Point(boudingBox.x + boudingBox.width, boudingBox.y + boudingBox.height / 3), Scalar(0, 0, 255), 1, 1);
+
+	line(frame, Point(boudingBox.x, boudingBox.y + boudingBox.height), Point(boudingBox.x, (boudingBox.y + boudingBox.height) - boudingBox.height / 3), Scalar(0, 0, 255), 1, 1);
+	line(frame, Point(boudingBox.x, boudingBox.y + boudingBox.height), Point(boudingBox.x + boudingBox.width / 3, boudingBox.y + boudingBox.height), Scalar(0, 0, 255), 1, 1);
+
+	line(frame, Point(boudingBox.x + boudingBox.width, boudingBox.y + boudingBox.height), Point((boudingBox.x + boudingBox.width) - boudingBox.width / 3, boudingBox.y + boudingBox.height), Scalar(0, 0, 255), 1, 1);
+	line(frame, Point(boudingBox.x + boudingBox.width, boudingBox.y + boudingBox.height), Point(boudingBox.x + boudingBox.width, (boudingBox.y + boudingBox.height) - boudingBox.height / 3), Scalar(0, 0, 255), 1, 1);
+
+	return cords;
+}

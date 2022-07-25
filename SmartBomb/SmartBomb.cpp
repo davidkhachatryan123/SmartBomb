@@ -17,14 +17,21 @@ int main()
 
 		while (lVideo.Get(frame))
 		{
-			Coordinates cord = keyboard.Move(frame, 33);
+			Coordinates cords = keyboard.Move(frame, 33);
 
-			if (cord.x != last_cords.x || cord.y != last_cords.y)
-				kcf.Init(frame, Rect(cord.x - keyboard.getSize(), cord.y - keyboard.getSize(), keyboard.getSize() * 2, keyboard.getSize() * 2));
+			if (cords.x != last_cords.x || cords.y != last_cords.y)
+			{
+				kcf.Init(frame, Rect(cords.x - keyboard.getSize(), cords.y - keyboard.getSize(), keyboard.getSize() * 2, keyboard.getSize() * 2));
+			
+				last_cords = cords;
+			}
 
-			last_cords = cord;
+			Coordinates target = kcf.Track(frame);
 
-			kcf.Track(frame);
+
+
+			//cv::putText(frame, to_string(target.x), Point(50, 50), FONT_HERSHEY_PLAIN, 3, Scalar(0, 0, 255), 1, 1);
+			//cv::putText(frame, to_string(target.y), Point(50, 100), FONT_HERSHEY_PLAIN, 3, Scalar(0, 0, 255), 1, 1);
 
 			lDisplay.Send("Window", frame);
 		}

@@ -1,4 +1,5 @@
 #include "../Tracking.h"
+#include "../../UI/Draw/Draw.h"
 
 #include <opencv2/opencv.hpp>
 #include <opencv2/tracking.hpp>
@@ -11,7 +12,7 @@ class KCF : public Tracking
 {
 public:
 	void Init(cv::Mat frame, Rect boudingBox);
-	void Track(Mat frame);
+    Coordinates Track(Mat frame);
 
 private:
     Ptr<Tracker> tracker;
