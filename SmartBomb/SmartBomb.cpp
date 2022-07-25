@@ -12,10 +12,19 @@ int main()
 		Mat frame;
 		Keyboard keyboard;
 		LocalDisplay lDisplay;
+		KCF kcf;
+		Coordinates last_cords;
 
 		while (lVideo.Get(frame))
 		{
-			keyboard.Move(frame, 33);
+			Coordinates cord = keyboard.Move(frame, 33);
+
+			if (cord.x != last_cords.x || cord.y != last_cords.y)
+				kcf.Init(frame, Rect(cord.x - keyboard.getSize(), cord.y - keyboard.getSize(), keyboard.getSize() * 2, keyboard.getSize() * 2));
+
+			last_cords = cord;
+
+			kcf.Track(frame);
 
 			lDisplay.Send("Window", frame);
 		}

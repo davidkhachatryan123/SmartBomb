@@ -5,5 +5,6 @@
 class Joystick : public XMovement
 {
 public:
-	void Move(int x, int y);
+	int getSize();
+	Coordinates Move(int x, int y);
 };

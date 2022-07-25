@@ -8,5 +8,5 @@
 class Draw
 {
 public:
-	static void drawX(Coordinates cords, cv::Mat& frame);
+	static Coordinates drawX(Coordinates cords, cv::Mat& frame, int size = 10);
 };

@@ -11,7 +11,9 @@ class Keyboard : public XMovement
 {
 private:
 	Coordinates cords;
+	int size = 10;
 
 public:
-	void Move(cv::Mat& frame, int delay);
+	int getSize();
+	Coordinates Move(cv::Mat& frame, int delay);
 };
