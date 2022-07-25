@@ -9,3 +9,5 @@
 #include "XMovement/Keyboard/Keyboard.h"
 
 #include "Tracking/David/KCF.h"
+
+#include "BombMovement/Bomb.h"

@@ -22,16 +22,13 @@ int main()
 			if (cords.x != last_cords.x || cords.y != last_cords.y)
 			{
 				kcf.Init(frame, Rect(cords.x - keyboard.getSize(), cords.y - keyboard.getSize(), keyboard.getSize() * 2, keyboard.getSize() * 2));
-			
+
 				last_cords = cords;
 			}
 
 			Coordinates target = kcf.Track(frame);
 
-
-
-			//cv::putText(frame, to_string(target.x), Point(50, 50), FONT_HERSHEY_PLAIN, 3, Scalar(0, 0, 255), 1, 1);
-			//cv::putText(frame, to_string(target.y), Point(50, 100), FONT_HERSHEY_PLAIN, 3, Scalar(0, 0, 255), 1, 1);
+			Bomb::Move(target, frame);
 
 			lDisplay.Send("Window", frame);
 		}
