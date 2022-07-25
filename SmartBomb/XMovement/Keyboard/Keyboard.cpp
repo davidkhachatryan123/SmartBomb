@@ -1,6 +1,11 @@
 #include "Keyboard.h"
 
-void Keyboard::Move(cv::Mat& frame, int delay)
+int Keyboard::getSize()
+{
+	return size;
+}
+
+Coordinates Keyboard::Move(cv::Mat& frame, int delay)
 {
 	switch (cv::waitKey(delay))
 	{
@@ -20,7 +25,13 @@ void Keyboard::Move(cv::Mat& frame, int delay)
 		if (cords.x > -1)
 			cords.x -= 0.03;
 		break;
+	case KeyboardArrows::ZOOM_IN:
+		size += 3;
+		break;
+	case KeyboardArrows::ZOOM_OUT:
+		size -= 3;
+		break;
 	}
 
-	Draw::drawX(cords, frame);
+	return Draw::drawX(cords, frame, size);
 }
