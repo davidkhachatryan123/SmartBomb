@@ -6,5 +6,5 @@
 class Capture
 {
 protected:
-	virtual bool Get(std::string path, cv::VideoCapture& cap) = 0;
+	virtual bool Get(cv::Mat& frame) = 0;
 };
