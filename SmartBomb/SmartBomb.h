@@ -6,4 +6,8 @@
 #include "UI/CaptureVideo/CaptureLocalVideo/CaptureLocalVideo.h"
 #include "UI/SendVideo/LocalDisplay/LocalDisplay.h"
 
-#include "UI/Draw/Draw.h"
+#include "XMovement/Keyboard/Keyboard.h"
+
+#include "Tracking/David/KCF.h"
+
+#include "BombMovement/Bomb.h"

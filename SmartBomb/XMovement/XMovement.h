@@ -1,7 +1,12 @@
 #pragma once
 
+#include <opencv2/opencv.hpp>
+
+#include "../Structures/Coordinates.h"
+
 class XMovement
 {
 protected:
-	virtual void Move(int x, int y) = 0;
+	virtual int getSize() = 0;
+	virtual Coordinates Move(cv::Mat& frame, int delay) = 0;
 };

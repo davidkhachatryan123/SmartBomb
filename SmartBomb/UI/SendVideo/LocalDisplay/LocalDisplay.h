@@ -8,5 +8,5 @@
 class LocalDisplay : public Display
 {
 public:
-	static void Send(std::string windowName, cv::Mat frame);
+	void Send(std::string windowName, cv::Mat frame);
 };
