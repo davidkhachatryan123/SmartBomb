@@ -2,7 +2,7 @@
 
 void KCF::Init(cv::Mat frame, Rect boudingBox)
 {
-	this->tracker = TrackerMIL::create();
+	this->tracker = TrackerKCF::create();
 
 	tracker->init(frame, boudingBox);
 }
