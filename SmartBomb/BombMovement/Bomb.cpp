@@ -17,7 +17,7 @@ void Bomb::Move(Coordinates to, cv::Mat frame)
 		float x_speed = to.x - frame.size().width / 2;
 		float y_speed = to.y - frame.size().height / 2;
 
-		MoveWithSpeed(-_map<float>(x_speed, 0, frame.size().width / 2, 0, 100), -_map<float>(y_speed, 0, frame.size().height / 2, 0, 100));
+		MoveWithSpeed(-_map<float>(x_speed, 0, frame.size().width / 2, 0, 100), _map<float>(y_speed, 0, frame.size().height / 2, 0, 100));
 	}
 	else
 		cout << "Not Tracking!" << endl;
@@ -25,6 +25,6 @@ void Bomb::Move(Coordinates to, cv::Mat frame)
 
 void Bomb::MoveWithSpeed(float x_speed, float y_speed)
 {
-	cout << "x speed: " << x_speed << endl;
-	cout << "y speed: " << y_speed << endl;
+	cout << "x speed: " << x_speed << " %" << endl;
+	cout << "y speed: " << y_speed << " %" << endl;
 }
